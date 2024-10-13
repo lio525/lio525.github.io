@@ -34,8 +34,8 @@ nav:
     - title: 项目
       item:
         - name: Alist
-          #link: https://a.189720.xyz/
-          #icon: https://image.anheyu.com/favicon.ico
+          link: https://a.189720.xyz/
+          icon: https://image.anheyu.com/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -73,9 +73,9 @@ social:
 author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://emotion.acs.pw/emotion/bilibili_2333/大笑.png"
+  statusImg: "https://a.189720.xyz/d/od100/%E5%9B%BE%E7%89%87/web/avator.png?sign=SOcqEUVunWqVTKKr2c69D5yhApAYjTS4RtRAR0aoJZw=:0"
   skills:
-     - 🤖️ none
+      - 🤖️ none
     # - 🔍 分享与热心帮助
     # - 🏠 智能家居小能手
     # - 🔨 设计开发一条龙
@@ -140,7 +140,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://a.189720.xyz/d/od100/%E5%9B%BE%E7%89%87/web/avator.png?sign=SOcqEUVunWqVTKKr2c69D5yhApAYjTS4RtRAR0aoJZw=:0
   effect: false
 
 # Disable all banner image
@@ -173,7 +173,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "请尝试站内搜索寻找文章"
-  background: https://bu.dusays.com/2023/05/08/645907596997d.gif
+  background: https://a.189720.xyz/d/od100/%E5%9B%BE%E7%89%87/web/nyn.jpg?sign=lfTJe4AU5i73yrVPeFSTdv0AqUG-ewxPg6bZ5iInLoY=:0
 
 post_meta:
   page: # Home Page
@@ -192,7 +192,7 @@ post_meta:
 
 # 主色调相关配置
 mainTone:
-  enable: false # true or false 文章是否启用获取图片主色调
+  enable: true # true or false 文章是否启用获取图片主色调
   mode: api # cdn/api/both cdn模式为图片url+imageAve参数获取主色调，api模式为请求API获取主色调，both模式会先请求cdn参数，无法获取的情况下将请求API获取，可以在文章内配置main_color: '#3e5658'，使用十六进制颜色，则不会请求both/cdn/api获取主色调，而是直接使用配置的颜色
   # 项目地址：https://github.com/anzhiyu-c/img2color-go
   api: https://img2color-go.vercel.app/api?img= # mode为api时可填写
@@ -1127,7 +1127,7 @@ comment_barrage_config:
 # 左下角音乐配置项
 # https://github.com/metowolf/MetingJS
 nav_music:
-  enable: true
+  enable: false
   console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 8152976493
   server: netease
